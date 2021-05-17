@@ -1,11 +1,11 @@
 ﻿/*
-Copyright (C): 2021-2030, The Chinese University of Hong Kong.
+Copyright (C): 2021-2030, The Chinese University of Hong Kong
 */
 
 
 
 //% color="#C814B8" weight=25 icon="\uf1d4"
-namespace CUHK_JC_iCar_Display {
+namespace CUHK-JC iCAR_Display {
     
     export enum enColor {
 
@@ -154,23 +154,23 @@ namespace CUHK_JC_iCar_Display {
    
 }
 /*****************************************************************************************************************************************
- *  Sensors  ***************************************************************************************************************************** 
+ *  Sensors ***************************************************************************************************************************** 
  ****************************************************************************************************************************************/
 
 //% color="#87CEEB" weight=24 icon="\uf1b6"
-namespace CUHK_JC_iCar_Sensors {
+namespace CUHK-JC iCAR_Sensors {
 
     export enum enVoice {
-        //% blockId="Voice" block="Voice"
+        //% blockId="Voice" block="Sound Detected"
         Voice = 0,
-        //% blockId="NoVoice" block="NoVoice"
+        //% blockId="NoVoice" block="No Sound Detected"
         NoVoice = 1
     }
 
     export enum enIR {
         //% blockId="Get" block="Detected"
         Get = 0,
-        //% blockId="NoVoice" block="Undetected"
+        //% blockId="NoVoice" block="Not Detected"
         NoGet = 1
     }
     
@@ -200,7 +200,7 @@ namespace CUHK_JC_iCar_Sensors {
             control.waitMicros(13);
         }
     }
-    //% blockId=mbit_IR_Sensor block="IR_Sensor|pin %pin| |%value|blockade"
+    //% blockId=mbit_IR_Sensor block="IR_Sensor|pin %pin| |%value|Obstacle"
     //% weight=100
     //% blockGap=10
     //% color="#87CEEB"
@@ -262,7 +262,7 @@ namespace CUHK_JC_iCar_Sensors {
  ****************************************************************************************************************************************/
 
 //% color="#808080" weight=23 icon="\uf11c"
-namespace CUHK_JC_iCar_Input {
+namespace CUHK-JC iCAR_Input {
 
     export enum enRocker {
         //% blockId="Nostate" block="No"
@@ -275,7 +275,7 @@ namespace CUHK_JC_iCar_Input {
         Left,
         //% blockId="Right" block="Right"
         Right,
-        //% blockId="Press" block="Pressed"
+        //% blockId="Press" block="Press"
         Press
     }
 
@@ -375,12 +375,12 @@ namespace CUHK_JC_iCar_Input {
  ****************************************************************************************************************************************/
 
 //% color="#D2691E" weight=22 icon="\uf001"
-namespace CUHK_JC_iCar_Sound {
+namespace CUHK-JC iCAR_Sound {
     export enum enBuzzer {
 
-        //% blockId="NoBeep" block="Unbeeped"
+        //% blockId="NoBeep" block="No Beep"
         NoBeep = 0,
-        //% blockId="Beep" block="Beeped"
+        //% blockId="Beep" block="Beep"
         Beep
     }
 
@@ -400,11 +400,11 @@ namespace CUHK_JC_iCar_Sound {
 }
 
 /*****************************************************************************************************************************************
- *    Motors *****************************************************************************************************************************
+ *    Motor *****************************************************************************************************************************
  ****************************************************************************************************************************************/
 
 //% color="#0000CD" weight=21 icon="\uf185"
-namespace CUHK_JC_iCar_Motor {
+namespace CUHK_JC iCAR_Motor {
 
     //% blockId=mbit_Fan block="Fan|pin %pin|speed %value"
     //% weight=100
@@ -433,7 +433,7 @@ namespace CUHK_JC_iCar_Motor {
 }
 
 //% color="#006400" weight=20 icon="\uf1b9"
-namespace CUHK_JC_iCar_Vehicle {
+namespace CUHK-JC iCAR_Vehicle {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
@@ -518,9 +518,9 @@ namespace CUHK_JC_iCar_Vehicle {
     }
     
     export enum enAvoidState {
-        //% blockId="OBSTACLE" block="Blocked"
+        //% blockId="OBSTACLE" block="Obstacle"
         OBSTACLE = 0,
-        //% blockId="NOOBSTACLE" block="Unblocked"
+        //% blockId="NOOBSTACLE" block="No Obstacle"
         NOOBSTACLE = 1
 
     }
@@ -543,9 +543,9 @@ namespace CUHK_JC_iCar_Vehicle {
         Car_Right = 4,
         //% blockId="Car_Stop" block="Stop"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="SpinLeft"
+        //% blockId="Car_SpinLeft" block="LeftSpin"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="SpinRight"
+        //% blockId="Car_SpinRight" block="RightSpin"
         Car_SpinRight = 7
     }
 
