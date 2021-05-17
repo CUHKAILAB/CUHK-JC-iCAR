@@ -1,6 +1,6 @@
 # CUHK-JC iCAR
 
-Extension for CUHK-JC iCAR V1.0.0
+Extension for CUHK-JC iCAR
 
 ## License
 

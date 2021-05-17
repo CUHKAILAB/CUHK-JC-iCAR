@@ -1,7 +1,7 @@
 {
     "name": "CUHK-JC iCAR",
     "version": "1.0.0",
-    "description": "Extension for CUHK-JC iCAR V1.0.0",
+    "description": "Extension for CUHK-JC iCAR",
     "license": "MIT",
     "dependencies": {
         "core": "*",
