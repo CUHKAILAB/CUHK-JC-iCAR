@@ -459,21 +459,21 @@ namespace CUHK-JC iCAR_Vehicle {
 
     export enum enColor {
 
-        //% blockId="OFF" block="灭"
+        //% blockId="OFF" block="Off"
         OFF = 0,
-        //% blockId="Red" block="红色"
+        //% blockId="Red" block="Red"
         Red,
-        //% blockId="Green" block="绿色"
+        //% blockId="Green" block="Green"
         Green,
-        //% blockId="Blue" block="蓝色"
+        //% blockId="Blue" block="Blue"
         Blue,
-        //% blockId="White" block="白色"
+        //% blockId="White" block="White"
         White,
-        //% blockId="Cyan" block="青色"
+        //% blockId="Cyan" block="Cyan"
         Cyan,
-        //% blockId="Pinkish" block="品红"
+        //% blockId="Pinkish" block="Pinkish"
         Pinkish,
-        //% blockId="Yellow" block="黄色"
+        //% blockId="Yellow" block="Yellow"
         Yellow,
 
     }
@@ -623,9 +623,9 @@ namespace CUHK-JC iCAR_Vehicle {
         setPwm(15, 0, speed2);
         setPwm(14, 0, 0);
         //pins.digitalWritePin(DigitalPin.P16, 1);
-       // pins.analogWritePin(AnalogPin.P1, 1023-speed); //速度控制
+       // pins.analogWritePin(AnalogPin.P1, 1023-speed); //SpeedControl
 
-       // pins.analogWritePin(AnalogPin.P0, speed);//速度控制
+       // pins.analogWritePin(AnalogPin.P0, speed);//SpeedControl
        // pins.digitalWritePin(DigitalPin.P8, 0);
     }
 
@@ -646,9 +646,9 @@ namespace CUHK-JC iCAR_Vehicle {
         setPwm(14, 0, speed2);
 
         //pins.digitalWritePin(DigitalPin.P16, 0);
-        //pins.analogWritePin(AnalogPin.P1, speed); //速度控制
+        //pins.analogWritePin(AnalogPin.P1, speed); //SpeedControl
 
-        //pins.analogWritePin(AnalogPin.P0, 1023 - speed);//速度控制
+        //pins.analogWritePin(AnalogPin.P0, 1023 - speed);//SpeedControl
         //pins.digitalWritePin(DigitalPin.P8, 1);
     }
 

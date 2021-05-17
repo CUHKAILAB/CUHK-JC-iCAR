@@ -1,10 +1,10 @@
 {
 
-  "mbit_显示类.LED1|block": "LED灯|引脚 %pin|状态 %value",
-  "mbit_显示类.LED2|block": "LED灯|引脚 %pin|亮度 %value",
-  "mbit_显示类.BreathLED|block": "呼吸灯|引脚 %pin",
-  "mbit_显示类.RGB|block": "RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3",
-  "mbit_显示类.RGB2|block": "RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|显示 %value",
+  "CUHK_JC_iCAR_Display.LED1|block": "LED|Pin %pin|Status %value",
+  "CUHK_JC_iCAR_Display.LED2|block": "LED|Pin %pin|Brightness %value",
+  "CUHK_JC_iCAR_Display.BreathLED|block": "BreathLED|Pin %pin",
+  "CUHK_JC_iCAR_Display.RGB|block": "RGB|PinR %pin1|PinG %pin2|PinB %pin3|Red %value1|Green %value2|Blue %value3",
+  "CUHK_JC_iCAR_Display.RGB2|block": "RGB|PinR %pin1|PinG %pin2|PinB %pin3|Display %value",
 
   "CUHK-JC iCAR_Input.TouchPad|block": "TouchPad|Pin %pin|Return %value",
   "CUHK-JC iCAR_Input.Rocker|block": "Rocker|VRX %pin1|VRY %pin2|SW %pin3|Return %value",
